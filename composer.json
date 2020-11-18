@@ -1,0 +1,22 @@
+{
+  "name": "yireo-training/magento2-example-repository",
+  "version": "1.0.0",
+  "description": "N/A",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "^103.0",
+    "magento/module-catalog": "104.0.1 || 104.0.2",
+      "psr/log": "^1.1"
+  },
+  "license": [
+    "Proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "YireoTraining\\ExampleRepository\\": ""
+    }
+  }
+}

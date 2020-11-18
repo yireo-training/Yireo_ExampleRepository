@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\Console\CommandList">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="example_list" xsi:type="object">YireoTraining\ExampleRepository\Command\ListCommand</item>
+                <item name="example_create" xsi:type="object">YireoTraining\ExampleRepository\Command\CreateCommand</item>
+                <item name="example_update" xsi:type="object">YireoTraining\ExampleRepository\Command\UpdateCommand</item>
+                <item name="example_delete" xsi:type="object">YireoTraining\ExampleRepository\Command\DeleteCommand</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
